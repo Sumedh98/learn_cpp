@@ -1,0 +1,3 @@
+- constexpression functions are inline functions. 
+- constexpr functions are often defined in header files, so they can be #included into any .cpp file that requires the full definition.
+- constexpression functions being inline eed the defenition to be available within the file otherwise it cannot wait till linker to find it in some other file
